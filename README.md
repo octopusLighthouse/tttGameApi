@@ -4,18 +4,22 @@
 
 ## Description
 
-tick-tack-toe game API
+Tick-Tack-Toe game API.
+User interface of this game you can found here:
+https://github.com/octopusLighthouse/tttGameReactUI
 
-## Running the app
+## Run game API
 
 ```bash
-# development
+# To run game api, type this command in terminal. 
+# This will run backend-api serveice and redis service.
 
 $ docker-compose up --build
 
-## Test
 
-```bash
+
+
+## Test
 # unit tests
 $ npm run test
 
