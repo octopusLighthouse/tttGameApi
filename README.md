@@ -12,7 +12,7 @@ https://github.com/octopusLighthouse/tttGameReactUI
 
 ```bash
 # To run game api, type this command in terminal. 
-# This will run backend-api serveice and redis service.
+# This will run backend-api service and redis service.
 
 $ docker-compose up --build
 
