@@ -1,0 +1,12 @@
+# docker-compose.yml
+version: "3.2"
+services:
+  redis-server:
+    image: "redis"
+    ports:
+      - "6379:6379"
+  gameapi:
+    build: .
+    working_dir: /app
+    ports:
+      - '3001:3001'
